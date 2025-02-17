@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CS4092_MultiActivityApp</string>
+    <string name="collect_your_favourite_cat">collect your favourite cat!</string>
+    <string name="cat_image">Cat Image</string>
+</resources>

@@ -1,0 +1,173 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp"
+    android:background="?android:attr/selectableItemBackground"
+    tools:context=".CatDetailsActivity">
+
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="588dp"
+      android:background="@android:color/white"
+      android:padding="20dp">
+
+    <TextView
+        android:id="@+id/catDetailsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Cat Details"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/catTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/catDetailsTitle">
+
+      <TableRow>
+
+        <TextView
+            android:layout_width="111dp"
+            android:layout_marginBottom="16dp"
+            android:text="Origin"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/originTextView"
+            android:textSize="20sp" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+            android:layout_marginBottom="16dp"
+            android:text="Life Span"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lifeTextView"
+            android:textSize="20sp" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+            android:layout_marginBottom="16dp"
+            android:text="Height"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/heightTextView"
+            android:textSize="20sp" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+            android:layout_marginBottom="16dp"
+            android:text="Width"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/widthTextView"
+            android:textSize="20sp" />
+      </TableRow>
+
+      <TableRow
+          android:layout_width="match_parent"
+          android:layout_height="91dp">
+
+        <TextView
+            android:layout_marginBottom="16dp"
+            android:text="Nature"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/temTextView"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:ellipsize="none"
+            android:lineSpacingExtra="8sp"
+            android:maxLines="25"
+            android:paddingBottom="10dp"
+            android:scrollHorizontally="false"
+            android:singleLine="false"
+            android:textSize="20sp" />
+      </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/webButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Web Info"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/catTable" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="492dp"
+        android:clickable="true"
+        android:contentDescription="add more information for cat"
+        app:backgroundTint="#FFFFFF"
+        android:src="@android:drawable/ic_menu_edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+  <ImageButton
+      android:id="@+id/backButton1"
+      android:layout_width="85dp"
+      android:layout_height="66dp"
+      android:layout_gravity="bottom"
+      android:layout_margin="10dp"
+      android:background="?android:attr/selectableItemBackground"
+      android:contentDescription="back to last page"
+      android:scaleType="centerCrop"
+      android:src="@drawable/backarror"
+      tools:src="@tools:sample/avatars" />
+
+  <ImageView
+      android:id="@+id/backgroundImage"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_gravity="center"
+      android:alpha="0.3"
+      android:scaleType="centerCrop" />
+
+</androidx.cardview.widget.CardView>
+
+
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:gravity="center"
+        android:text="Welcome to the Cat World !"
+        android:textAlignment="gravity"
+        android:textAllCaps="true"
+        android:textColor="#333333"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <!-- 搜索按钮 -->
+
+    <EditText
+        android:id="@+id/searchCat"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:backgroundTint="#0F0C0C"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:text="Search Your Cat and Know more about Her/Him!"
+        android:textAllCaps="false"
+        android:textColor="#090909"
+        android:textSize="17sp"
+        tools:ignore="SmallSp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="690dp"
+        android:layout_marginTop="0dp" />
+
+</LinearLayout>
