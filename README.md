@@ -46,7 +46,7 @@
 
 ## 🛠 Technologies Used
 - **Programming Language**: Java
-- **Database**: Using the https://thecatapi.com/ database
+- **Database**: Using the https://thecatapi.com/
 - **Framework**: Spring Boot (if applicable)
 - **UI Components**: Android UI elements
 
