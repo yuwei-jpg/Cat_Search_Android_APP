@@ -30,7 +30,19 @@
 5. **🌐 Web Search for More Information**
    - Click the "Web Info" button on the cat's details page to search for additional information online.
 
-## 📷 Screenshots (Add UI screenshots here)
+## 📷 Screenshots
+
+<p align="center">
+  <img src="https://github.com/yuwei-jpg/Cat_Search_Android_APP/blob/main/img1.png" width="35%" style="margin-right: 10%;" />
+  <img src="https://github.com/yuwei-jpg/Cat_Search_Android_APP/blob/main/img2.png" width="35%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/yuwei-jpg/Cat_Search_Android_APP/blob/main/img3.png" width="35%" style="margin-right: 10%;" />
+  <img src="https://github.com/yuwei-jpg/Cat_Search_Android_APP/blob/main/img4.png" width="35%" />
+</p>
+
+</p>
 
 ## 🛠 Technologies Used
 - **Programming Language**: Java
